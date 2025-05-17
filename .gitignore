@@ -1,0 +1,7 @@
+# Ignore sensitive config
+/config/config.local.php
+# Ignore files and images
+files/*
+!files/.gitkeep
+img/*
+!img/.gitkeep

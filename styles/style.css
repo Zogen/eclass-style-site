@@ -1,0 +1,212 @@
+/* General Reset and Base Styles */
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Only apply to login page */
+.login-page, 
+.login-page html, 
+.login-page body {
+    height: 100%;
+    margin: 0;
+    font: 14px sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+}
+
+.login-page .wrapper {
+    width: 360px;
+    padding: 30px 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+
+.login-page .wrapper h2 {
+    margin-bottom: 15px;
+    color: #2e8b57;
+    text-align: center;
+}
+
+.login-page .wrapper p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.login-page .wrapper .btn-primary {
+    width: 100%;
+}
+
+
+/* Headings */
+h2 {
+    color: #2e8b57;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Main Headline Block */
+#headline {
+    border: 1px solid #ccc;
+    background-color: #e6f2e6;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+/* Layout Container */
+#kti {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Sidebar / Categories */
+#categories {
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    min-width: 200px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Full-width Navbar Wrapper */
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px 24px;
+    background-color: #ffffffcc;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(6px);
+}
+
+/* Individual Nav Items */
+.nav_item {
+    padding: 12px 20px;
+    background: linear-gradient(145deg, #a3f0f0, #d0f8f8);
+    border-radius: 8px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.3s, transform 0.2s ease;
+    min-width: 100px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Hover/Active Styling */
+.nav_item:hover {
+    background: #7ed9d9;
+    transform: translateY(-2px);
+}
+
+.nav_item.active {
+    background: #2e8b57;
+    color: white;
+}
+
+/* Responsive: Stack vertically on small screens */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav_item {
+        width: 90%;
+    }
+}
+
+/* Sidebar layout */
+#categories .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Sidebar nav items */
+#categories .nav_item {
+    display: block;
+    padding: 10px 14px;
+    background: linear-gradient(145deg, #a3f0f0, #d0f8f8);
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+/* Hover */
+#categories .nav_item:hover {
+    background: #7ed9d9;
+    transform: scale(1.02);
+}
+
+/* Active styling, optional */
+#categories .nav_item.active {
+    background-color: #2e8b57;
+    color: white;
+}
+
+
+/* Main Content Container */
+.container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 20px;
+    flex: 1;
+    min-width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Content inside container */
+.container > .content {
+    margin: 0;
+    padding: 10px;
+    overflow-wrap: break-word;
+}
+
+/* Centered Block */
+.coconut {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+/* List Styles */
+.mylist {
+    line-height: 1.8;
+    padding-left: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+    #kti {
+        flex-direction: column;
+    }
+}
