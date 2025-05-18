@@ -46,19 +46,19 @@ This project simulates a simple course management platform with two distinct use
 ## 📸 Screenshots
 
 ### Login
-- ![Login Page](screenshots/login.png)
-- ![Login Error](screenshots/login_error.png)
+ ![Login Page](screenshots/login.png)
+ ![Login Error](screenshots/login_error.png)
 
 ### Student View
-- ![Student Home](screenshots/home.png)
-- ![Announcements](screenshots/announcements.png)
-- ![Contact](screenshots/contact.png)
-- ![Documents](screenshots/documents.png)
-- ![Assignments](screenshots/assignments.png)
+ ![Student Home](screenshots/home.png)
+ ![Announcements](screenshots/announcements.png)
+ ![Contact](screenshots/contact.png)
+ ![Documents](screenshots/documents.png)
+ ![Assignments](screenshots/assignments.png)
 
 ### Teacher View
-- ![User Management](screenshots/teacher_users.png)
-- ![Add/Edit User Form](screenshots/teacher_users_form.png)
+ ![User Management](screenshots/teacher_users.png)
+ ![Add/Edit User Form](screenshots/teacher_users_form.png)
 
 ---
 
